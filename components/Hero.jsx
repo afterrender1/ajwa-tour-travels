@@ -5,7 +5,7 @@ import { CircleArrowOutUpRight } from 'lucide-react';
 const montserrat = Montserrat({ subsets: ['latin'], weight: ['500'], variable: '--font-montserrat' });
 const Hero = () => {
     return (
-        <section className={`mx-auto max-w-[1700] px-4 md:px-8 lg:px-12 mt-8 mb-20 ${montserrat.className}`}>
+        <section className={`mx-auto max-w-[1700] px-4 md:px-8 lg:px-12 mt-8 mb-20 select-none ${montserrat.className}`}>
             {/* Hero Container with Rounded Corners & Overflow Hidden */}
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                 {/* Hero Background Image */}
