@@ -54,7 +54,7 @@ const ContactUs = () => {
             </span>
           </p>
         </span>
-        <div className={`${montserrat.className} min-h-screen bg-[#F8FAFC] flex justify-center items-center p-4 sm:p-8 lg:p-12`}>
+        <div className={`${montserrat.className} min-h-screen  flex justify-center items-center p-4 sm:p-8 lg:p-12`}>
           <div className="w-full max-w-6xl bg-white rounded-3xl md:rounded-[3rem] shadow-[0_20px_50px_rgba(0,0,0,0.04)] overflow-hidden border border-gray-100">
 
             {/* Main Wrapper: Column on mobile, Row on Large Screens */}
@@ -72,7 +72,7 @@ const ContactUs = () => {
                       priority
                     />
                   </div>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 tracking-tight">
                     Get in touch
                   </h2>
                   <p className="text-gray-500 mt-3 text-sm sm:text-base leading-relaxed">
@@ -140,7 +140,7 @@ const ContactUs = () => {
               {/* Info Side */}
               <div className="flex-1 bg-gray-50/50 p-6 sm:p-10 md:p-14 border-t lg:border-t-0 lg:border-l border-gray-100 flex flex-col justify-between">
                 <div className="space-y-10">
-                  <h3 className="text-xl font-bold text-gray-900 tracking-tight">Contact Information</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 tracking-tight">Contact Information</h3>
 
                   <div className="space-y-8">
                     {/* Contact Items */}
@@ -150,7 +150,7 @@ const ContactUs = () => {
                       { icon: <MapPin size={22} />, label: "Visit us", value: <>123 Ajwa Street, USQ,<br /> Las Vegas, Nevada</>, color: "text-red-500" },
                     ].map((item, idx) => (
                       <div key={idx} className="flex items-start gap-5 group">
-                        <div className={`p-3.5 bg-white rounded-2xl shadow-sm border border-gray-100 ${item.color} transition-transform group-hover:scale-110`}>
+                        <div className={`p-3.5 bg-white rounded-xl  border border-gray-200 ${item.color} transition-transform group-hover:scale-110`}>
                           {item.icon}
                         </div>
                         <div>
@@ -163,8 +163,8 @@ const ContactUs = () => {
                 </div>
 
                 {/* Support Box */}
-                <div className="mt-12 p-8 bg-white rounded-4xl border border-gray-100 shadow-sm">
-                  <p className="text-gray-900 font-bold text-lg">Working Hours</p>
+                <div className="mt-12 p-8 bg-white rounded-xl border border-gray-200 ">
+                  <p className="text-gray-900 font-semibold text-lg">Working Hours</p>
                   <div className="mt-3 space-y-1 text-sm sm:text-base">
                     <p className="text-green-600 font-medium">24/7 Support for active bookings</p>
                     <p className="text-gray-500">Mon-Sat: 9 AM - 8 PM</p>
