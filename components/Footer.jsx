@@ -71,7 +71,7 @@ const Footer = () => {
                             </div>
                             <div className="flex items-center gap-3">
                                 <MapPin size={18} className="text-red-500" />
-                                <span>Mumbai, Maharashtra, India</span>
+                                <span>USA, lasvegas , Nevada</span>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="mt-16 pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
-                    <p>© {currentYear} Ajwa Tours & Travels. All rights reserved.</p>
+                    <p>© {currentYear} AfterRender. All rights reserved.</p>
                     <div className="flex gap-6">
                         <a href="#" className="hover:text-gray-800 transition">Privacy Policy</a>
                         <a href="#" className="hover:text-gray-800 transition">Terms of Service</a>

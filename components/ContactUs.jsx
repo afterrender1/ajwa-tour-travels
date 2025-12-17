@@ -41,7 +41,7 @@ const ContactUs = () => {
 <>
 <div className={`max-w-400 mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-20 select-none bg-white `}>
 
-   <span className={`${poppins.className}`}>
+   <span className={`${poppins.className} `}>
   <h4 className="text-xl mt-14 mb-6 text-gray-500 tracking-wide">
     Get In Touch
   </h4>
