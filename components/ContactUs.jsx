@@ -97,7 +97,7 @@ const ContactUs = () => {
                   <input
                     type="tel"
                     name="phone"
-                    placeholder="+91..."
+                    placeholder="+92..."
                     value={form.phone}
                     onChange={handleChange}
                     className="w-full p-3.5 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-green-500/20 focus:border-green-500 outline-none transition-all"
@@ -154,7 +154,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <p className="text-xs font-bold uppercase tracking-wider text-gray-400">Call us</p>
-                    <p className="text-gray-700 font-medium">+91-XXXXX-XXXXX</p>
+                    <p className="text-gray-700 font-medium">+92-XXXXX-XXXXX</p>
                   </div>
                 </div>
 

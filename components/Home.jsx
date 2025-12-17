@@ -4,6 +4,7 @@ import Hero from './Hero'
 import AboutUs from './AboutUs'
 import OurPackeges from './OurPackeges'
 import ContactUs from './ContactUs'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <AboutUs/>
     <OurPackeges/>
     <ContactUs/>
+    <Footer/>
     
     </>
   )
