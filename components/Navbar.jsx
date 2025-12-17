@@ -155,7 +155,7 @@
                         <button className="cursor-pointer w-full  py-3 md:py-3 text-sm md:text-sm font-semibold text-white bg-linear-to-r from-green-600 via-teal-500 to-blue-600 rounded-xl hover:from-green-700 hover:via-teal-600 hover:to-blue-700 transition shadow-lg flex items-center justify-center gap-2 md:gap-3 active:scale-[0.96]">
                             {/* Use a placeholder emoji for the icon */}
                             <span className="text-xl"><Phone size={18} /></span>
-                            Book Now: +91-XXXXX-XXXXX
+                            Book Now: +92-XXXXX-XXXXX
                         </button>
                         {/* Support Text (Now Extra-Small on Mobile) */}
                         <p className="text-center text-xs md:text-sm text-gray-600 mt-2 md:mt-3">
